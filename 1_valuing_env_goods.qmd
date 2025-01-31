@@ -1,8 +1,8 @@
 ---
 title: "Untitled"
-format: beamer
-editor: visual
+format: revealjs
 ---
+
 
 ## Choices
 
@@ -156,4 +156,26 @@ editor: visual
     -   Example: ₹5M benefit from wetland preservation versus ₹3M cost
 
 ------------------------------------------------------------------------
+
+```{r}
+#| echo: false
+library(DiagrammeR)
+grViz("
+  digraph {
+  layout = dot
+    node [shape = rectangle,color=green,style=filled,fixedsize=True,width=0.6]
+    edge[color=grey,arrowhead=vee]
+    A[label = 'Total Economic Value']
+    B[label = 'Use values']
+    C[label = 'Passive use values']
+    D[label = 'Consumptive use']
+    E[label = 'Nonconsumptive use']
+    A->B
+    A->C
+    B->D
+    B->E
+    
+  }")
+
+```
 

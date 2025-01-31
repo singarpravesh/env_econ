@@ -1,0 +1,604 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{part title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{part title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\newif\ifbibliography
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+\usepackage{caption}
+% Make caption package work with longtable
+\makeatletter
+\def\fnum@table{\tablename~\thetable}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Untitled},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Untitled}
+\author{}
+\date{}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Choices}
+\phantomsection\label{choices}
+\begin{itemize}
+\item
+  Choice is fundamental to human existence, ranging from daily
+  individual decisions to major collective choices that shape society
+\item
+  Individual choices encompass:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Routine decisions about time and money management
+  \item
+    Major life decisions regarding housing, family, and career paths
+  \end{itemize}
+\item
+  Collective choices involve:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Creation of laws and regulations
+  \item
+    Management of public resources
+  \item
+    Decision-making through voting or representatives
+  \end{itemize}
+\item
+  All choices involve trade-offs:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Selecting one option means foregoing others
+  \item
+    Both individual and collective choices require evaluating
+    alternatives based on preferences
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\tightlist
+\item
+  People's choices reveal their preferences:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Choosing an activity shows it was ``worth'' its cost
+  \item
+    Observed choices help understand what people value
+  \end{itemize}
+\item
+  Nonmarket valuation focuses on choices not captured by traditional
+  markets:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Environmental goods and services (clean air, wilderness)
+  \item
+    Natural amenities that aren't directly purchased
+  \item
+    Public resources requiring collective decision-making
+  \end{itemize}
+\item
+  Understanding preferences helps inform policy decisions:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Guides allocation of public funds
+  \item
+    Assists in evaluating environmental preservation
+  \item
+    Supports cost-benefit analysis of public projects
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Market failure and choices}
+\phantomsection\label{market-failure-and-choices}
+\begin{itemize}
+\tightlist
+\item
+  The ``invisible hand'' principle has limitations:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    While individual choices can benefit society, this doesn't always
+    work for environmental goods
+  \item
+    The principle assumes markets exist for all goods and services
+    people value
+  \end{itemize}
+\item
+  Market failures in environmental goods lead to undersupply:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Without markets, providers can't receive payment for environmental
+    benefits
+  \item
+    Private landowners lack incentives to protect habitat when they
+    can't monetize the benefits
+  \item
+    The true social value of environmental goods isn't reflected in
+    market transactions
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\tightlist
+\item
+  Environmental externalities create economic inefficiencies:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Negative externalities occur when actions harm others without
+    compensation
+  \item
+    Companies don't pay for environmental damage, leading to excessive
+    pollution
+  \item
+    Private costs don't include environmental impacts, distorting
+    decision-making
+  \end{itemize}
+\item
+  Two solutions exist for market failures:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Create new markets for environmental goods where possible
+  \item
+    Implement government interventions through regulations or direct
+    provision
+  \end{itemize}
+\item
+  Nonmarket valuation serves crucial roles:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Helps quantify environmental benefits that markets don't capture
+  \item
+    Provides information to address market failures
+  \item
+    Supports policy decisions about environmental protection
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Non-market Valuation}
+\phantomsection\label{non-market-valuation}
+\begin{itemize}
+\tightlist
+\item
+  The evolution of nonmarket valuation spans several decades:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Originated in 1950s U.S. for water resource project analysis
+  \item
+    Gained momentum in 1980s through key federal actions
+  \item
+    Executive Order 12291 mandated benefit-cost analyses
+  \item
+    Environmental legislation required damage assessments
+  \end{itemize}
+\item
+  Applications expanded to include:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Environmental regulation benefit assessment
+  \item
+    Natural resource damage compensation
+  \item
+    Land and water management decisions
+  \item
+    Ecosystem services valuation
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\tightlist
+\item
+  Growing recognition of ecosystem services drove wider adoption:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Non-economists began showing interest
+  \item
+    Environmental degradation raised awareness
+  \item
+    Policy decisions often overlooked ecosystem value
+  \item
+    Need emerged to quantify natural benefits
+  \end{itemize}
+\item
+  Landmark ecosystem valuation studies emerged:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    1997 study estimated global ecosystem value at \$33 trillion
+  \item
+    Generated controversy and critique from economists
+  \item
+    Sparked important discussions about valuation methods
+  \item
+    Highlighted need for proper methodology
+  \end{itemize}
+\item
+  Current state of nonmarket valuation:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Serves critical role in environmental decision-making
+  \item
+    Helps quantify previously ignored natural benefits
+  \item
+    Requires careful understanding of proper techniques
+  \item
+    Continues to evolve with new applications and methods
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Values vs valuation}
+\phantomsection\label{values-vs-valuation}
+\begin{itemize}
+\tightlist
+\item
+  Economic valuation differentiates between two types of values:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Held values: Core principles like loyalty, freedom, or environmental
+    stewardship
+  \item
+    Assigned values: Specific valuations, such as how much someone would
+    pay to preserve a local forest or clean up a polluted lake
+  \end{itemize}
+\item
+  Assigned values are influenced by multiple factors:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Individual perceptions: A hiker might value wilderness differently
+    than a developer
+  \item
+    Personal held values: Someone who believes in environmental
+    protection might assign higher value to endangered species
+    preservation
+  \item
+    Context: The value assigned to clean air might be higher in a
+    heavily polluted city versus a rural area
+  \item
+    External circumstances: Income levels affect how much people can pay
+    for environmental improvements
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\tightlist
+\item
+  Nonmarket valuation specifically focuses on:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Measuring assigned values: Quantifying how much people value
+    improving air quality from level A to B
+  \item
+    Relative changes: Comparing outcomes like having a protected wetland
+    versus developing it
+  \item
+    Practical examples: Determining the value of preserving a national
+    park or reducing water pollution in a river
+  \item
+    Trade-off decisions: Whether to spend \$20 million on forest
+    preservation or a new museum
+  \end{itemize}
+\item
+  Key principles of environmental valuation:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Values are relative: Clean air is valued against current pollution
+    levels
+  \item
+    Specific outcomes: Preserving 1,000 acres of wetland versus abstract
+    environmental protection
+  \item
+    Practical applications: Assessing damages from oil spills or
+    benefits of emissions regulations
+  \item
+    Real-world choices: Deciding between expanding a highway or
+    protecting adjacent wildlife habitat
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\tightlist
+\item
+  Economic approach to valuation:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Real-world applications: Evaluating compensation for environmental
+    damage from chemical spills
+  \item
+    Policy decisions: Determining appropriate pollution control
+    standards
+  \item
+    Project assessment: Analyzing costs and benefits of dam construction
+  \item
+    Resource management: Deciding optimal harvest levels for fisheries
+    or forests
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Concept of value}
+\phantomsection\label{concept-of-value}
+\begin{itemize}
+\tightlist
+\item
+  Economic theory defines value through trade-offs:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Value = Maximum amount one would give up to gain something
+  \item
+    Example: How much money someone would sacrifice to preserve a local
+    park
+  \item
+    Negative values exist too: Compensation required to accept pollution
+  \end{itemize}
+\item
+  Two key principles of economic value:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Higher willingness to sacrifice indicates higher value
+  \item
+    Example: If someone would pay ₹100 to save forest A but only ₹50 for
+    forest B, they value A more
+  \item
+    Values can be compared by measuring sacrifice amounts
+  \item
+    Example: Choosing between ₹20M for air quality improvement or water
+    cleanup
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\tightlist
+\item
+  Trade-offs can be measured in different ways:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Monetary terms (most common): Rupees willing to pay
+  \item
+    Risk trade-offs: Accepting one risk to reduce another
+  \item
+    Example: Accepting slightly higher traffic risk to reduce flood risk
+  \item
+    Time trade-offs: Hours willing to volunteer for environmental
+    cleanup
+  \end{itemize}
+\item
+  Key economic value concepts:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Willingness to Pay (WTP): Amount someone would pay for improvement
+  \item
+    Example: ₹50 monthly for cleaner air
+  \item
+    Willingness to Accept (WTA): Compensation required to give up
+    something
+  \item
+    Example: ₹1000 to accept loss of neighborhood green space
+  \end{itemize}
+\item
+  Benefits in economic valuation:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Specifically means monetary value assigned
+  \item
+    Allows comparison across different projects
+  \item
+    Enables cost-benefit analysis
+  \item
+    Example: ₹5M benefit from wetland preservation versus ₹3M cost
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\end{frame}
+
+
+
+\end{document}

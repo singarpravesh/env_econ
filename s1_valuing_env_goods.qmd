@@ -16,7 +16,7 @@ editor: visual
     -   Routine decisions about time and money management
     -   Major life decisions regarding housing, family, and career paths
 
----
+------------------------------------------------------------------------
 
 -   Collective choices involve:
 
@@ -38,8 +38,8 @@ editor: visual
     -   Environmental goods and services (clean air, wilderness)
     -   Natural amenities that aren't directly purchased
     -   Public resources requiring collective decision-making
-    
----
+
+------------------------------------------------------------------------
 
 -   Understanding preferences helps inform policy decisions:
     -   Guides allocation of public funds
@@ -52,7 +52,7 @@ editor: visual
     -   While individual choices can benefit society, this doesn't always work for environmental goods
     -   The principle assumes markets exist for all goods and services people value
 
----
+------------------------------------------------------------------------
 
 -   Market failures in environmental goods lead to undersupply:
     -   Without markets, providers can't receive payment for environmental benefits
@@ -68,8 +68,8 @@ editor: visual
 -   Two solutions exist for market failures:
     -   Create new markets for environmental goods where possible
     -   Implement government interventions through regulations or direct provision
-    
----
+
+------------------------------------------------------------------------
 
 -   Nonmarket valuation serves crucial roles:
     -   Helps quantify environmental benefits that markets don't capture
@@ -84,7 +84,7 @@ editor: visual
     -   Executive Order 12291 mandated benefit-cost analyses
     -   Environmental legislation required damage assessments
 
----
+------------------------------------------------------------------------
 
 -   Applications expanded to include:
     -   Environmental regulation benefit assessment
@@ -104,8 +104,8 @@ editor: visual
     -   Generated controversy and critique from economists
     -   Sparked important discussions about valuation methods
     -   Highlighted need for proper methodology
-    
----
+
+------------------------------------------------------------------------
 
 -   Current state of nonmarket valuation:
     -   Serves critical role in environmental decision-making
@@ -118,8 +118,8 @@ editor: visual
 -   Economic valuation differentiates between two types of values:
     -   Held values: Core principles like loyalty, freedom, or environmental stewardship
     -   Assigned values: Specific valuations, such as how much someone would pay to preserve a local forest or clean up a polluted lake
-    
----
+
+------------------------------------------------------------------------
 
 -   Assigned values are influenced by multiple factors:
     -   Individual perceptions: A hiker might value wilderness differently than a developer
@@ -134,8 +134,8 @@ editor: visual
     -   Relative changes: Comparing outcomes like having a protected wetland versus developing it
     -   Practical examples: Determining the value of preserving a national park or reducing water pollution in a river
     -   Trade-off decisions: Whether to spend \$20 million on forest preservation or a new museum
-    
----
+
+------------------------------------------------------------------------
 
 -   Key principles of environmental valuation:
     -   Values are relative: Clean air is valued against current pollution levels
@@ -158,7 +158,7 @@ editor: visual
     -   Example: How much money someone would sacrifice to preserve a local park
     -   Negative values exist too: Compensation required to accept pollution
 
----
+------------------------------------------------------------------------
 
 -   Two key principles of economic value:
     -   Higher willingness to sacrifice indicates higher value
@@ -178,8 +178,8 @@ editor: visual
     -   Example: ₹50 monthly for cleaner air
     -   Willingness to Accept (WTA): Compensation required to give up something
     -   Example: ₹1000 to accept loss of neighborhood green space
-    
----
+
+------------------------------------------------------------------------
 
 -   Benefits in economic valuation:
     -   Specifically means monetary value assigned
@@ -195,359 +195,363 @@ knitr::include_graphics("images/f_1.jpg")
 ```
 
 ## The Valuation Process
-* Six Key Steps in Environmental Valuation:
 
-   - Step 1: Problem Formulation
-   - Example: Evaluating dam removal options for river restoration
-   - Identify alternatives like full removal, partial removal, fish ladders
+-   Six Key Steps in Environmental Valuation:
 
-   - Step 2: Identify Environmental Changes
-   - Example: Changes in water flow, fish population, habitat quality
-   - Map out all potential biophysical impacts
+    -   Step 1: Problem Formulation
 
----
+    -   Example: Evaluating dam removal options for river restoration
 
-   - Step 3: Link to Human Well-being
-   - Example: Improved fishing opportunities (₹5000 annual value)
-   - Consider both use and passive-use values
-   - Include cultural and ecological benefits
+    -   Identify alternatives like full removal, partial removal, fish ladders
 
-   - Step 4: Quantify Changes
-   - Example: 40% increase in fish population
-   - Measure impacts in concrete, measurable terms
-   - Focus on changes relevant to human welfare
+    -   Step 2: Identify Environmental Changes
 
----
+    -   Example: Changes in water flow, fish population, habitat quality
 
-   - Step 5: Estimate Economic Values
-   - Example: Calculate willingness to pay for improvements
-   - Use appropriate valuation methods
-   - Consider both direct and indirect benefits
+    -   Map out all potential biophysical impacts
 
-   - Step 6: Communicate Results
-   - Present findings to decision-makers
-   - Clearly explain methodology and assumptions
-   - Support informed policy choices
+------------------------------------------------------------------------
 
----
+-   Step 3: Link to Human Well-being
 
-* Important Process Characteristics:
-   - Iterative rather than linear
-   - Requires interdisciplinary collaboration
-   - Must link scientific measures to human values
-   - Example: Can't just measure phytoplankton changes without connecting to human benefits
-   
+-   Example: Improved fishing opportunities (₹5000 annual value)
 
-- In moving from conceptualizing the valuation process described above to actually estimating values (benefits) using nonmarket valuation, a number of issues can arise. 
+-   Consider both use and passive-use values
+
+-   Include cultural and ecological benefits
+
+-   Step 4: Quantify Changes
+
+-   Example: 40% increase in fish population
+
+-   Measure impacts in concrete, measurable terms
+
+-   Focus on changes relevant to human welfare
+
+------------------------------------------------------------------------
+
+-   Step 5: Estimate Economic Values
+
+-   Example: Calculate willingness to pay for improvements
+
+-   Use appropriate valuation methods
+
+-   Consider both direct and indirect benefits
+
+-   Step 6: Communicate Results
+
+-   Present findings to decision-makers
+
+-   Clearly explain methodology and assumptions
+
+-   Support informed policy choices
+
+------------------------------------------------------------------------
+
+-   Important Process Characteristics:
+    -   Iterative rather than linear
+    -   Requires interdisciplinary collaboration
+    -   Must link scientific measures to human values
+    -   Example: Can't just measure phytoplankton changes without connecting to human benefits
+-   In moving from conceptualizing the valuation process described above to actually estimating values (benefits) using nonmarket valuation, a number of issues can arise.
 
 ## Issue 1: Whose value to include
-* Defining the Relevant Population:
-   - Cannot simply include everyone who values a change
-   - Must consider specific context and purpose
-   - Population scope affects total valuation significantly
 
-* Compensation Scenarios:
-   - Legal entitlement determines relevant population
-   - Example: Oil spill compensation
-   - Local impacts: Affected fishermen claiming ₹50,000 each
-   - Broader impacts: Public claims for wildlife damage
-   - Must define "public" - local, national, or global
+-   Defining the Relevant Population:
+    -   Cannot simply include everyone who values a change
+    -   Must consider specific context and purpose
+    -   Population scope affects total valuation significantly
+-   Compensation Scenarios:
+    -   Legal entitlement determines relevant population
+    -   Example: Oil spill compensation
+    -   Local impacts: Affected fishermen claiming ₹50,000 each
+    -   Broader impacts: Public claims for wildlife damage
+    -   Must define "public" - local, national, or global
 
----
+------------------------------------------------------------------------
 
-* Policy Evaluation Contexts:
-   - Greenhouse gas emission reduction example:
-   - National benefits: ₹500M in reduced climate impacts
-   - Global benefits: ₹10B in worldwide impact reduction
-   - Choice depends on policy objectives
+-   Policy Evaluation Contexts:
+    -   Greenhouse gas emission reduction example:
+    -   National benefits: ₹500M in reduced climate impacts
+    -   Global benefits: ₹10B in worldwide impact reduction
+    -   Choice depends on policy objectives
+-   Key Decision Factors:
+    -   Policy objectives: Local vs global benefits
+    -   Cost bearing: Who pays for implementation
+    -   Example: If country bears ₹1B cost:
+        -   Local benefits only: May not justify cost
+        -   Global benefits included: May justify cost
 
-* Key Decision Factors:
-   - Policy objectives: Local vs global benefits
-   - Cost bearing: Who pays for implementation
-   - Example: If country bears ₹1B cost:
-      - Local benefits only: May not justify cost
-      - Global benefits included: May justify cost
+------------------------------------------------------------------------
 
----
+-   Important Considerations:
+    -   Decision-maker perspective matters
+    -   Geographic scope affects benefit calculations
+    -   Need clear criteria for population inclusion
+    -   Balance between costs and beneficiary scope
 
-* Important Considerations:
-   - Decision-maker perspective matters
-   - Geographic scope affects benefit calculations
-   - Need clear criteria for population inclusion
-   - Balance between costs and beneficiary scope
-   
 ## Issue 2: Aggregating values accross individuals
-* Aggregating Individual Values:
-   - Standard method: Simple addition across population
-   - Example: If 1000 people value a park at ₹500 each = ₹500,000 total
-   - Typically uses unweighted summation
-   - Alternative: Voting-based preference aggregation
-      - Drawback: do not reflect the intensity of individual preferences for one option over another. 
-      - For example, in a three-person vote, an option that is only slightly preferred by two individuals would win over an option that is strongly preferred by the third individual.
-      
----
 
-- Maximizing **aggregate net benefits** (or **total income**) is **not always** the same as maximizing **total utility**.  
-- The two are equivalent **only if** income is redistributed to equalize **marginal utility of income (MUY)** across individuals.  
+-   Aggregating Individual Values:
+    -   Standard method: Simple addition across population
+    -   Example: If 1000 people value a park at ₹500 each = ₹500,000 total
+    -   Typically uses unweighted summation
+    -   Alternative: Voting-based preference aggregation
+        -   Drawback: do not reflect the intensity of individual preferences for one option over another.
+        -   For example, in a three-person vote, an option that is only slightly preferred by two individuals would win over an option that is strongly preferred by the third individual.
 
----
+------------------------------------------------------------------------
 
-- Let $Y_i(x)$ be income of **Person i**, where $i = 1,2$.  
-- Let $u_i(Y_i(x))$ be the **utility function** of Person i.  
-- If **Person 1 gains** while **Person 2 loses**, then:  
- $$
-  \frac{\partial Y_1}{\partial x} + \frac{\partial Y_2}{\partial x} > 0
- $$
-  → **Total income increases (benefit > cost).**  
-- However, if **marginal utility of income** differs:  
- $$
-  \frac{\partial u_1}{\partial Y_1} < \frac{\partial u_2}{\partial Y_2}
- $$
+-   Maximizing **aggregate net benefits** (or **total income**) is **not always** the same as maximizing **total utility**.\
+-   The two are equivalent **only if** income is redistributed to equalize **marginal utility of income (MUY)** across individuals.
 
----
+------------------------------------------------------------------------
 
-  Then:  
- $$
+-   Let $Y_i(x)$ be income of **Person i**, where $i = 1,2$.\
+-   Let $u_i(Y_i(x))$ be the **utility function** of Person i.\
+-   If **Person 1 gains** while **Person 2 loses**, then:\
+    $$
+    \frac{\partial Y_1}{\partial x} + \frac{\partial Y_2}{\partial x} > 0
+     $$ → **Total income increases (benefit \> cost).**\
+-   However, if **marginal utility of income** differs:\
+    $$
+    \frac{\partial u_1}{\partial Y_1} < \frac{\partial u_2}{\partial Y_2}
+     $$
+
+------------------------------------------------------------------------
+
+Then:\
+$$
   \frac{\partial u_1}{\partial Y_1} \frac{\partial Y_1}{\partial x} + \frac{\partial u_2}{\partial Y_2} \frac{\partial Y_2}{\partial x} < 0
- $$  
-  → **Total utility decreases, despite net income gain.**  
+ $$\
+→ **Total utility decreases, despite net income gain.**
 
----
+------------------------------------------------------------------------
 
+-   Suppose **Policy X** increases **Person 1’s** income by **₹1000** but decreases **Person 2’s** income by **₹800**.\
+-   **Net income gain**:\
+    $$
+    1000 - 800 = \text{₹200} > 0
+     $$
+-   However, if **Person 1** is **wealthy** and **Person 2** is **poor**, then:\
+    $$
+    MU_{Y_1} < MU_{Y_2}
+     $$\
+-   **Loss in utility** for **Person 2** may exceed the **gain** for **Person 1**, leading to an overall **reduction in aggregate utility**.
 
-- Suppose **Policy X** increases **Person 1’s** income by **₹1000** but decreases **Person 2’s** income by **₹800**.  
-- **Net income gain**:  
- $$
-  1000 - 800 = \text{₹200} > 0
- $$
-- However, if **Person 1** is **wealthy** and **Person 2** is **poor**, then:  
- $$
-  MU_{Y_1} < MU_{Y_2}
- $$  
-- **Loss in utility** for **Person 2** may exceed the **gain** for **Person 1**, leading to an overall **reduction in aggregate utility**.  
+------------------------------------------------------------------------
 
----
- 
-- **Within a generation**, taxes and subsidies can correct disparities.  
-- **Across generations**, redistribution is harder, affecting long-term **cost-benefit analysis**.  
-- Hence, **ignoring marginal utility differences** across individuals is common in static analysis but **crucial** in **intergenerational welfare analysis**.  
+-   **Within a generation**, taxes and subsidies can correct disparities.\
+-   **Across generations**, redistribution is harder, affecting long-term **cost-benefit analysis**.\
+-   Hence, **ignoring marginal utility differences** across individuals is common in static analysis but **crucial** in **intergenerational welfare analysis**.
 
----
+------------------------------------------------------------------------
 
-* Income Effect Challenges:
-   - Higher income leads to higher willingness to pay
-   - Example: 
-      - Wealthy person values clean air at ₹10,000
-      - Low-income person values same at ₹2,000
-      - Same preferences but different ability to pay
+-   Income Effect Challenges:
+    -   Higher income leads to higher willingness to pay
+    -   Example:
+        -   Wealthy person values clean air at ₹10,000
+        -   Low-income person values same at ₹2,000
+        -   Same preferences but different ability to pay
 
----
+------------------------------------------------------------------------
 
-* Equal Weighting Issues:
-   - Appears fair but has implications
-   - Benefits skew toward wealthy populations
-   - Example:
-      - Two identical parks
-      - Wealthy area shows ₹10M total benefit
-      - Poor area shows ₹2M total benefit
-      - May lead to biased decision-making
+-   Equal Weighting Issues:
+    -   Appears fair but has implications
+    -   Benefits skew toward wealthy populations
+    -   Example:
+        -   Two identical parks
+        -   Wealthy area shows ₹10M total benefit
+        -   Poor area shows ₹2M total benefit
+        -   May lead to biased decision-making
 
----
+------------------------------------------------------------------------
 
-* Key Considerations:
-   - Need to understand wealth bias in results
-   - Consider distributional impacts
-   - Provide decision-makers with:
-      - Total unweighted benefits
-      - Distribution across income groups
-      - Social equity implications
+-   Key Considerations:
+    -   Need to understand wealth bias in results
+    -   Consider distributional impacts
+    -   Provide decision-makers with:
+        -   Total unweighted benefits
+        -   Distribution across income groups
+        -   Social equity implications
+-   Alternative Approaches:
+    -   Weighted aggregation possible
+    -   Can incorporate distributional concerns
+    -   Must be transparent about methodology
+    -   Consider generational equity issues
 
-* Alternative Approaches:
-   - Weighted aggregation possible
-   - Can incorporate distributional concerns
-   - Must be transparent about methodology
-   - Consider generational equity issues
-   
-## Issue 3:Aggregating Benefits Across Time 
+## Issue 3:Aggregating Benefits Across Time
 
-- **Importance of Time in Benefit Calculation**  
-- Policies (e.g., **climate change mitigation**) generate benefits over **multiple time periods**.  
-- **Total benefit** = sum of **current and future benefits**.  
-- Future benefits must be appropriately **weighted** when compared to present benefits.  
+-   **Importance of Time in Benefit Calculation**\
+-   Policies (e.g., **climate change mitigation**) generate benefits over **multiple time periods**.\
+-   **Total benefit** = sum of **current and future benefits**.\
+-   Future benefits must be appropriately **weighted** when compared to present benefits.
 
----
+------------------------------------------------------------------------
 
-- Standard approach: **Discounting** using a **discount factor**.  
-- Total **discounted benefit** over time:  
-  $$
-  B = \sum_{t=0}^{T} \frac{B_t}{(1+r)^t}
-  $$
-  where:  
-  -$B_t$ = Benefit in period $t$  
-  -$r$ = Discount rate  
-  -$T$ = Total time horizon  
+-   Standard approach: **Discounting** using a **discount factor**.\
+-   Total **discounted benefit** over time:\
+    $$
+    B = \sum_{t=0}^{T} \frac{B_t}{(1+r)^t}
+    $$ where:\
+    -$B_t$ = Benefit in period $t$\
+    -$r$ = Discount rate\
+    -$T$ = Total time horizon
 
----
+------------------------------------------------------------------------
 
-- **Why Discount Future Benefits?**  
-1. **Investment-based rationale:**  
-   - Money today can be **invested** to earn returns.  
-   - Example:  
-     - ₹100 today at **5% interest** → ₹105 next year.  
-     - **Hence, ₹105 next year is worth ₹100 today.**  
-     - Future payments should be **discounted** to reflect this.  
+-   **Why Discount Future Benefits?**\
 
-2. **Consumption-based rationale:**  
-   - **Diminishing Marginal Utility of Consumption (MUY)**  
-   - **Example:** If future generations are richer, an extra ₹1000 will be **less valuable** to them than to us today.  
+1.  **Investment-based rationale:**
+    -   Money today can be **invested** to earn returns.\
+    -   Example:
+        -   ₹100 today at **5% interest** → ₹105 next year.\
+        -   **Hence, ₹105 next year is worth ₹100 today.**\
+        -   Future payments should be **discounted** to reflect this.
+2.  **Consumption-based rationale:**
+    -   **Diminishing Marginal Utility of Consumption (MUY)**\
+    -   **Example:** If future generations are richer, an extra ₹1000 will be **less valuable** to them than to us today.
 
----
+------------------------------------------------------------------------
 
-- **Intergenerational Equity & Discounting**  
-- Should future generations be valued **equally**?  
-- If yes: **Equal utility weights** across generations.  
-- If future generations are **richer**, their benefits may be discounted:  
-  $$
-  \text{Higher consumption } \Rightarrow \text{Lower marginal utility } \Rightarrow \text{Discounting justified}
-  $$  
-- Policy decisions should **balance** equity and economic growth.  
+-   **Intergenerational Equity & Discounting**\
+-   Should future generations be valued **equally**?\
+-   If yes: **Equal utility weights** across generations.\
+-   If future generations are **richer**, their benefits may be discounted:\
+    $$
+    \text{Higher consumption } \Rightarrow \text{Lower marginal utility } \Rightarrow \text{Discounting justified}
+    $$\
+-   Policy decisions should **balance** equity and economic growth.
 
----
+------------------------------------------------------------------------
 
-- **Practical Approach to Discounting**  
-- **Uncertainty in discount rates** → Use a **declining discount rate** over time.  
-- Standard practice: **Compute benefits for multiple discount rates** (e.g., **2%, 4%, 6%**) to capture variations.  
+-   **Practical Approach to Discounting**\
+-   **Uncertainty in discount rates** → Use a **declining discount rate** over time.\
+-   Standard practice: **Compute benefits for multiple discount rates** (e.g., **2%, 4%, 6%**) to capture variations.
 
-## **Issue 4: Uncertainty in Valuing Environmental Changes**  
+## **Issue 4: Uncertainty in Valuing Environmental Changes**
 
-- **Sources of Uncertainty**  
-- **Uncertainty in predicting environmental changes** (e.g., climate change impact).  
-- **Uncertainty in assigning values** to environmental changes.  
-- Example: Policy to **reduce greenhouse gas emissions** → uncertainty in:  
-  - **Emissions reduction effectiveness**  
-  - **Climate impact of emission reductions**  
-  - **Effects on health, agriculture, and ecosystems**  
+-   **Sources of Uncertainty**\
+-   **Uncertainty in predicting environmental changes** (e.g., climate change impact).\
+-   **Uncertainty in assigning values** to environmental changes.\
+-   Example: Policy to **reduce greenhouse gas emissions** → uncertainty in:
+    -   **Emissions reduction effectiveness**\
+    -   **Climate impact of emission reductions**\
+    -   **Effects on health, agriculture, and ecosystems**
 
----
+------------------------------------------------------------------------
 
-- **Role of Models in Predicting Outcomes**  
-- Use of models introduces **structural and parameter uncertainty**.  
-- Uncertainty exists in:  
-  - **Future economic conditions** (income, preferences).  
-  - **Preferences of future generations**.  
-- Values assigned to outcomes reflect these uncertainties.  
+-   **Role of Models in Predicting Outcomes**\
+-   Use of models introduces **structural and parameter uncertainty**.\
+-   Uncertainty exists in:
+    -   **Future economic conditions** (income, preferences).\
+    -   **Preferences of future generations**.\
+-   Values assigned to outcomes reflect these uncertainties.
 
----
+------------------------------------------------------------------------
 
-- **Incorporating Uncertainty in Economic Valuation**  
-- Economic value under uncertainty is based on **expected utility**:  
-  $$
-  EV = \sum P_i U(Y_i)
-  $$
-  where:  
-  - $P_i$ = Probability of outcome $i$  
-  - $U(Y_i)$ = Utility from income level $Y_i$.  
-- Individuals’ **risk preferences** influence valuation:  
-  - **Risk-averse:** Higher value on certainty.  
-  - **Risk-neutral:** Value based purely on expected return.  
+-   **Incorporating Uncertainty in Economic Valuation**\
+-   Economic value under uncertainty is based on **expected utility**:\
+    $$
+    EV = \sum P_i U(Y_i)
+    $$ where:
+    -   $P_i$ = Probability of outcome $i$\
+    -   $U(Y_i)$ = Utility from income level $Y_i$.\
+-   Individuals’ **risk preferences** influence valuation:
+    -   **Risk-averse:** Higher value on certainty.\
+    -   **Risk-neutral:** Value based purely on expected return.
 
----
+------------------------------------------------------------------------
 
-- **Techniques to Address Uncertainty**  
-- **Sensitivity analysis**: Examining how variations in key parameters affect results.  
-  - Example: Evaluating a Carbon Tax Policy
-    Suppose the government implements a carbon tax to reduce emissions.
-    - Key uncertain factors:
-        - Elasticity of demand for fossil fuels (How much will consumption decrease as price increases?).
-        - Cost of renewable energy alternatives (How competitive are they?).
-        - Economic growth rate (Affects future emissions and policy impact).
-    - Method:
-        - Run the cost-benefit analysis with different values for each variable.
-        - Identify how sensitive the net benefits are to changes in assumptions.
-    
-    - If small changes in a parameter (e.g., renewable energy cost) drastically alter the policy's net benefits, the policy outcome is highly sensitive to that factor.
+-   **Techniques to Address Uncertainty**\
+-   **Sensitivity analysis**: Examining how variations in key parameters affect results.
+    -   Example: Evaluating a Carbon Tax Policy Suppose the government implements a carbon tax to reduce emissions.
+        -   Key uncertain factors:
+            -   Elasticity of demand for fossil fuels (How much will consumption decrease as price increases?).
+            -   Cost of renewable energy alternatives (How competitive are they?).
+            -   Economic growth rate (Affects future emissions and policy impact).
+        -   Method:
+            -   Run the cost-benefit analysis with different values for each variable.
+            -   Identify how sensitive the net benefits are to changes in assumptions.
+        -   If small changes in a parameter (e.g., renewable energy cost) drastically alter the policy's net benefits, the policy outcome is highly sensitive to that factor.
 
----
+------------------------------------------------------------------------
 
-- **Monte Carlo simulation**: Running multiple simulations to estimate probability distributions of outcomes. 
-  - Example: Predicting Future Economic Losses from Flooding
-    A city wants to estimate economic damages from future floods due to climate change.
-    - Key uncertain variables:
-        - Future sea level rise (Varies due to climate uncertainty).
-        - Storm intensity (More extreme weather events are likely).
-        - Property values (Higher values mean greater damages).
-    - Method:
-        - Assign probability distributions to these variables (e.g., sea level rise follows a normal distribution).
-        - Run 10,000 simulations, each time drawing random values for variables.
-        - Analyze the distribution of projected damages.
-    - Instead of predicting one single damage estimate, the city gets a probability range (e.g., ₹500 crore to ₹2000 crore, with a 70% chance of exceeding ₹1000 crore).
-    
-- **Surveys**: Eliciting public values for uncertain environmental outcomes.  
+-   **Monte Carlo simulation**: Running multiple simulations to estimate probability distributions of outcomes.
+    -   Example: Predicting Future Economic Losses from Flooding A city wants to estimate economic damages from future floods due to climate change.
+        -   Key uncertain variables:
+            -   Future sea level rise (Varies due to climate uncertainty).
+            -   Storm intensity (More extreme weather events are likely).
+            -   Property values (Higher values mean greater damages).
+        -   Method:
+            -   Assign probability distributions to these variables (e.g., sea level rise follows a normal distribution).
+            -   Run 10,000 simulations, each time drawing random values for variables.
+            -   Analyze the distribution of projected damages.
+        -   Instead of predicting one single damage estimate, the city gets a probability range (e.g., ₹500 crore to ₹2000 crore, with a 70% chance of exceeding ₹1000 crore).
+-   **Surveys**: Eliciting public values for uncertain environmental outcomes.
 
----
+------------------------------------------------------------------------
 
-- **Valuing Risk Reduction**  
-- Some policies **explicitly aim to reduce risk** (e.g., air pollution policies).  
-- Example: Reducing **PM2.5 pollution** lowers risk of:  
-  - **Asthma**  
-  - **Infant mortality**  
-- Economic value of risk reduction estimated via **willingness to pay (WTP)**:  
-  $$
-  WTP = \sum P_i (U(Y_i^*) - U(Y_i))
-  $$ 
-  where $Y_i^*$ is improved health outcome due to policy.  
+-   **Valuing Risk Reduction**\
+-   Some policies **explicitly aim to reduce risk** (e.g., air pollution policies).\
+-   Example: Reducing **PM2.5 pollution** lowers risk of:
+    -   **Asthma**\
+    -   **Infant mortality**\
+-   Economic value of risk reduction estimated via **willingness to pay (WTP)**:\
+    $$
+    WTP = \sum P_i (U(Y_i^*) - U(Y_i))
+    $$ where $Y_i^*$ is improved health outcome due to policy.
 
----
+------------------------------------------------------------------------
 
-- **Challenges in Nonmarket Valuation of Uncertainty**  
-- **Health risks** are easier to value than broad environmental risks.  
-- Long-term, geographically broad, or **catastrophic risks** (e.g., climate disasters) remain difficult to quantify.  
-- Need for **advanced valuation methods** to incorporate uncertainty effectively.  
+-   **Challenges in Nonmarket Valuation of Uncertainty**\
+-   **Health risks** are easier to value than broad environmental risks.\
+-   Long-term, geographically broad, or **catastrophic risks** (e.g., climate disasters) remain difficult to quantify.\
+-   Need for **advanced valuation methods** to incorporate uncertainty effectively.
 
 ## Valuation Methods
 
-- **Revealed Preference vs. Stated Preference Methods**  
-- **Revealed Preference Methods**: Infer values from actual market behavior.  
-- **Stated Preference Methods**: Rely on survey responses to hypothetical scenarios.  
+-   **Revealed Preference vs. Stated Preference Methods**\
+-   **Revealed Preference Methods**: Infer values from actual market behavior.\
+-   **Stated Preference Methods**: Rely on survey responses to hypothetical scenarios.
 
 | **Revealed Preference Methods** | **Stated Preference Methods** |
-|---------------------------------|------------------------------|
-| Travel Cost Method | Contingent Valuation |
-| Hedonic Pricing | Attribute-Based Methods |
-| Defensive Behavior | Hypothetical Substitution |
+|---------------------------------|-------------------------------|
+| Travel Cost Method              | Contingent Valuation          |
+| Hedonic Pricing                 | Attribute-Based Methods       |
+| Defensive Behavior              | Hypothetical Substitution     |
 
----
+------------------------------------------------------------------------
 
-- **Revealed Preference Methods**  
+-   **Revealed Preference Methods**
 
-**1. Travel Cost Method (TCM)**  
-- Used for valuing **recreational sites** by analyzing how much people spend to visit.  
-- **Example**: Estimating the value of a national park by considering travel costs (fuel, time, entry fees).  
+**1. Travel Cost Method (TCM)**\
+- Used for valuing **recreational sites** by analyzing how much people spend to visit.\
+- **Example**: Estimating the value of a national park by considering travel costs (fuel, time, entry fees).
 
-**2. Hedonic Pricing Method (HPM)**  
-- Estimates the value of environmental attributes based on their impact on **market prices** (e.g., real estate).  
-- **Example**: Comparing property prices in areas with different air pollution levels to measure the implicit value of clean air.  
+**2. Hedonic Pricing Method (HPM)**\
+- Estimates the value of environmental attributes based on their impact on **market prices** (e.g., real estate).\
+- **Example**: Comparing property prices in areas with different air pollution levels to measure the implicit value of clean air.
 
-**3. Defensive Behavior Method**  
-- Measures how much people spend to **avoid environmental harm**.  
-- **Example**: The cost of water filters in areas with polluted drinking water helps estimate the value of clean water.  
+**3. Defensive Behavior Method**\
+- Measures how much people spend to **avoid environmental harm**.\
+- **Example**: The cost of water filters in areas with polluted drinking water helps estimate the value of clean water.
 
----
+------------------------------------------------------------------------
 
-- **Stated Preference Methods**  
+-   **Stated Preference Methods**
 
-**1. Contingent Valuation Method (CVM)**  
-- Uses surveys to directly ask individuals about their **willingness to pay (WTP)** for an environmental good.  
-- **Example**: Asking citizens how much they would pay for a program to reduce air pollution in Delhi.  
+**1. Contingent Valuation Method (CVM)**\
+- Uses surveys to directly ask individuals about their **willingness to pay (WTP)** for an environmental good.\
+- **Example**: Asking citizens how much they would pay for a program to reduce air pollution in Delhi.
 
-**2. Attribute-Based Methods**  
-- Uses hypothetical choices between different scenarios to estimate preferences.  
-- **Example**: Presenting people with different combinations of **fuel types, vehicle prices, and emission levels** to estimate the value of reduced pollution.  
+**2. Attribute-Based Methods**\
+- Uses hypothetical choices between different scenarios to estimate preferences.\
+- **Example**: Presenting people with different combinations of **fuel types, vehicle prices, and emission levels** to estimate the value of reduced pollution.
 
----
+------------------------------------------------------------------------
 
-- **Choosing the Right Method**  
-- **Regulatory Needs**: Major policies may require more **rigorous** valuation methods.  
-- **Cost vs. Accuracy**: Stated preference methods may be **cheaper**, but revealed preference methods are often **more reliable**.  
-- **Combinations of Methods**: Sometimes multiple methods are used to get a **more complete valuation**.  
-
+-   **Choosing the Right Method**\
+-   **Regulatory Needs**: Major policies may require more **rigorous** valuation methods.\
+-   **Cost vs. Accuracy**: Stated preference methods may be **cheaper**, but revealed preference methods are often **more reliable**.\
+-   **Combinations of Methods**: Sometimes multiple methods are used to get a **more complete valuation**.
